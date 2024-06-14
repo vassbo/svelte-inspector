@@ -16,6 +16,6 @@
     "inspector"
   ],
   "dependencies": {
-    "open-in-editor": "mitsuyoshi4/open-in-editor#d9ecf27"
+    "open-in-editor": "generalov/open-in-editor#ce1e8cb"
   }
 }
