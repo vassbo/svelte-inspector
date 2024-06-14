@@ -33,14 +33,14 @@ startInspector(/*config*/);
 
 ```javascript
 const script = document.createElement('script');
-script.src = 'http://0.0.0.0:5001/start';
+script.src = 'http://localhost:5001/start';
 document.body.appendChild(script);
 ```
 
 **or** this code in the bottom of **_body_** tag in index.html
 
 ```html
-<script type="application/javascript" src="http://0.0.0.0:5001/start"></script>
+<script type="application/javascript" src="http://localhost:5001/start"></script>
 ```
 
 3. Open your web app and press 'O' (configurable) for toggling the inspecting mode.
