@@ -74,7 +74,7 @@ function clientCode() {
 
   document.body.addEventListener('keydown', e => {
     if (e.keyCode !== __OPEN_FILE_KEY_CODE || !_file || !checkInput(e)) return;
-    fetch(`http://0.0.0.0:5001/${_file}`);
+    fetch(`http://localhost:5001/${_file}`);
   });
 
   contour.setAttribute(
